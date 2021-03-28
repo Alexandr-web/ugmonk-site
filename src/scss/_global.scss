@@ -1,0 +1,66 @@
+@import './_fonts';
+@import './_vars';
+@import '../../node_modules/normalize.css/normalize';
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  resize: none;
+  outline: none;
+  text-decoration: none;
+  @extend %roboto-400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  height: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.container--mh {
+  min-height: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.js-cr {
+  justify-content: center;
+}
+
+.js-sp {
+  justify-content: space-between;
+}
+
+.js-fe {
+  justify-content: flex-end;
+}
+
+.ai-cr {
+  align-items: center;
+}
+
+.fl-cm {
+  flex-direction: column;
+}
+
+.fw-wr {
+  flex-wrap: wrap;
+}
+
+.link {
+  background: #1A1A1A;
+  padding: 0 13px;
+  color: #F7F7F7;
+}
